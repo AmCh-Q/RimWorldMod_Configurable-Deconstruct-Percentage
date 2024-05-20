@@ -1,6 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
   <DecPerc.Name>拆除建筑返还材料百分比</DecPerc.Name>
-  <DecPerc.Setting>拆除建筑返还材料百分比：{0}%</DecPerc.Setting>
   <DecPerc.RestartNReq>设置立刻生效，无需重启</DecPerc.RestartNReq>
+  <DecPerc.DeconstructPercent>拆除建筑返还材料百分比：{0}%</DecPerc.DeconstructPercent>
+  <DecPerc.DeconstructPercent_Tip>{0}%的材料将会在拆除建筑后返还，如果数额不是整数，将随机向上或者向下取整。</DecPerc.DeconstructPercent_Tip>
+  <DecPerc.FailReturnPercent>建造失败返还材料百分比：{0}%</DecPerc.FailReturnPercent>
+  <DecPerc.FailReturnPercent_Tip>建造任务失败后{0}%的材料将会返还，如果数额不是整数，将随机向上或者向下取整。</DecPerc.FailReturnPercent_Tip>
+  <DecPerc.DestroyReturnPercent>暴力破坏返还材料百分比：{0}%</DecPerc.DestroyReturnPercent>
+  <DecPerc.DestroyReturnPercent_Tip>当建筑被暴力破坏，{0}%的材料将会返还，如果数额不是整数，将随机向上或者向下取整。部分建筑另有自定义的破坏效果，可能返还的材料更少，甚至不返还。</DecPerc.DestroyReturnPercent_Tip>
+  <DecPerc.MinimumReturn>每种材料返还至少{0}份</DecPerc.MinimumReturn>
+  <DecPerc.MinimumReturn_Tip>模组会尝试返还每种材料至少{0}份，但不会返还超过100%的材料。</DecPerc.MinimumReturn_Tip>
 </LanguageData>
