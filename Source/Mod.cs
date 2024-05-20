@@ -24,7 +24,7 @@ namespace Configurable_Deconstruct_Percentage
             int deconstructionPercent = settings.DeconstructionPercent;
             ls.Label("DecPerc.Setting".Translate(deconstructionPercent), 
                 -1f, "DecPerc.RestartNReq".Translate());
-            deconstructionPercent = (int)Math.Round(ls.Slider(deconstructionPercent, 0f, 100f));
+            deconstructionPercent = Mathf.RoundToInt(ls.Slider(deconstructionPercent, 0f, 100f));
             string buffer = deconstructionPercent.ToString();
             ls.TextFieldNumeric(ref deconstructionPercent, ref buffer, 0f, 100f);
             settings.DeconstructionPercent = deconstructionPercent;
