@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <DecPerc.Name>拆除建築返還材料百分比</DecPerc.Name>
+  <DecPerc.Setting>拆除建築返還材料百分比：{0}%</DecPerc.Setting>
+  <DecPerc.RestartNReq>設置立刻生效，無需重啓</DecPerc.RestartNReq>
+</LanguageData>

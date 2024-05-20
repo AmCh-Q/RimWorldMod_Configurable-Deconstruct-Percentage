@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <DecPerc.Name>Configurable Deconstruct Percentage</DecPerc.Name>
+  <DecPerc.Setting>Configurable Deconstruct Percentage: {0}%</DecPerc.Setting>
+  <DecPerc.RestartNReq>Restart NOT required for changes to take effect.</DecPerc.RestartNReq>
+</LanguageData>
