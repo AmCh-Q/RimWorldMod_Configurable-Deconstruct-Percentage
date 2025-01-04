@@ -3,11 +3,15 @@
   <DecPerc.Name>Configurable Deconstruct Percentage</DecPerc.Name>
   <DecPerc.RestartNReq>Restart NOT required for changes to take effect.</DecPerc.RestartNReq>
   <DecPerc.DeconstructPercent>Deconstruct Percentage Return: {0}%</DecPerc.DeconstructPercent>
-  <DecPerc.DeconstructPercent_Tip>{0}% of the material will be returned upon deconstruction, if the result is not a whole number, it will be randomly rounded up or down.</DecPerc.DeconstructPercent_Tip>
+  <DecPerc.DeconstructPercent_Tip>{0}% of the material will be returned upon deconstruction. If the result is not a whole number, it will be randomly rounded up or down.</DecPerc.DeconstructPercent_Tip>
   <DecPerc.FailReturnPercent>Construction Failure Return: {0}%</DecPerc.FailReturnPercent>
-  <DecPerc.FailReturnPercent_Tip>When a consturction task fails, {0}% of the material will be returned, if the result is not a whole number, it will be randomly rounded up or down.</DecPerc.FailReturnPercent_Tip>
+  <DecPerc.FailReturnPercent_Tip>When a consturction task fails, {0}% of the material will be returned. If the result is not a whole number, it will be randomly rounded up or down.</DecPerc.FailReturnPercent_Tip>
   <DecPerc.DestroyReturnPercent>Destroyed Percentage Return: {0}%</DecPerc.DestroyReturnPercent>
-  <DecPerc.DestroyReturnPercent_Tip>When a building is violently destroyed, {0}% of the material will be returned, if the result is not a whole number, it will be randomly rounded up or down. However, many buildings have their own limits and might return less material, if any.</DecPerc.DestroyReturnPercent_Tip>
+  <DecPerc.DestroyReturnPercent_Tip>When a building is violently destroyed, {0}% of the material will be returned. If the result is not a whole number, it will be randomly rounded up or down. However, some buildings (such as walls) are marked by Vanilla to not return materials.</DecPerc.DestroyReturnPercent_Tip>
+  <DecPerc.CancelBuildingPercent>Cancel Construction Percentage Return: {0}%</DecPerc.CancelBuildingPercent>
+  <DecPerc.CancelBuildingPercent_Tip>When a building frame is cancelled, {0}% of the material will be returned. If the result is not a whole number, it will be randomly rounded up or down.</DecPerc.CancelBuildingPercent_Tip>
+  <DecPerc.CancelUnfinishedPercent>Cancel Worktable Percentage Return: {0}%</DecPerc.CancelUnfinishedPercent>
+  <DecPerc.CancelUnfinishedPercent_Tip>When an unfinished worktable item (such as an in-progress sculpture or weapon) is cancelled, {0}% of the material will be returned. If the result is not a whole number, it will be randomly rounded up or down.</DecPerc.CancelUnfinishedPercent_Tip>
   <DecPerc.MinimumReturn>Return at least {0} of each resource</DecPerc.MinimumReturn>
-  <DecPerc.MinimumReturn_Tip>Will try to return at least {0} of each resource. The buildings will never return more than 100% of the initial material.</DecPerc.MinimumReturn_Tip>
+  <DecPerc.MinimumReturn_Tip>Will try to return at least {0} unit of each resource. This will never return more than 100% of the initial material.</DecPerc.MinimumReturn_Tip>
 </LanguageData>

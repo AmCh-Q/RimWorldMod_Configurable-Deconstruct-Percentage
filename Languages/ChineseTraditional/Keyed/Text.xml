@@ -3,11 +3,15 @@
   <DecPerc.Name>拆除建築返還材料百分比</DecPerc.Name>
   <DecPerc.RestartNReq>設置立刻生效，無需重啓</DecPerc.RestartNReq>
   <DecPerc.DeconstructPercent>拆除建築返還材料百分比：{0}%</DecPerc.DeconstructPercent>
-  <DecPerc.DeconstructPercent_Tip>{0}%的材料將會在拆除建築后返還，如果數額不是整數，將隨機向上或者向下取整。</DecPerc.DeconstructPercent_Tip>
+  <DecPerc.DeconstructPercent_Tip>{0}%的材料將會在拆除建築后返還。如果數額不是整數，將隨機向上或者向下取整。</DecPerc.DeconstructPercent_Tip>
   <DecPerc.FailReturnPercent>建造失敗返還材料百分比：{0}%</DecPerc.FailReturnPercent>
-  <DecPerc.FailReturnPercent_Tip>建造任務失敗后{0}%的材料將會返還，如果數額不是整數，將隨機向上或者向下取整。</DecPerc.FailReturnPercent_Tip>
+  <DecPerc.FailReturnPercent_Tip>建造任務失敗后{0}%的材料將會返還。如果數額不是整數，將隨機向上或者向下取整。</DecPerc.FailReturnPercent_Tip>
   <DecPerc.DestroyReturnPercent>暴力破壞返還材料百分比：{0}%</DecPerc.DestroyReturnPercent>
-  <DecPerc.DestroyReturnPercent_Tip>當建築被暴力破壞，{0}%的材料將會返還，如果數額不是整數，將隨機向上或者向下取整。部分建築另有自定義的破壞效果，可能返還的材料更少甚至不返還。</DecPerc.DestroyReturnPercent_Tip>
+  <DecPerc.DestroyReturnPercent_Tip>當建築被暴力破壞，{0}%的材料將會返還。如果數額不是整數，將隨機向上或者向下取整。部分原版標記的建築（例如墻壁）不會返還材料。</DecPerc.DestroyReturnPercent_Tip>
+  <DecPerc.CancelBuildingPercent>取消建築返還材料百分比：{0}%</DecPerc.CancelBuildingPercent>
+  <DecPerc.CancelBuildingPercent_Tip>{0}%的材料將會在取消建築后返還。如果數額不是整數，將隨機向上或者向下取整。</DecPerc.CancelBuildingPercent_Tip>
+  <DecPerc.CancelUnfinishedPercent>取消工作臺返還材料百分比：{0}%</DecPerc.CancelUnfinishedPercent>
+  <DecPerc.CancelUnfinishedPercent_Tip>{0}%的材料將會在取消工作臺物品（例如未完成的雕像，武器）后返還。如果數額不是整數，將隨機向上或者向下取整。</DecPerc.CancelUnfinishedPercent_Tip>
   <DecPerc.MinimumReturn>每種材料返還至少{0}份</DecPerc.MinimumReturn>
   <DecPerc.MinimumReturn_Tip>模組會嘗試返還每種材料至少{0}份，但不會返還超過100%的材料。</DecPerc.MinimumReturn_Tip>
 </LanguageData>
