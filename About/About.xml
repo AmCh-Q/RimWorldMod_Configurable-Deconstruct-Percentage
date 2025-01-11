@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <ModMetaData>
   <packageId>AmCh.DeconstructPercentage</packageId>
-  <modVersion IgnoreIfNoMatchingField="True">2.1</modVersion>
+  <modVersion IgnoreIfNoMatchingField="True">2.1.1</modVersion>
   <name>Configurable Deconstruct Percentage</name>
   <author>AmCh</author>
   <url></url>

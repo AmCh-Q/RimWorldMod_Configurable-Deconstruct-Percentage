@@ -6,7 +6,7 @@ using Verse;
 using HarmonyLib;
 #endif
 
-[assembly: AssemblyVersion("2.1.0.0")]
+[assembly: AssemblyVersion("2.1.1.0")]
 namespace Configurable_Deconstruct_Percentage
 {
 	public class ConfigurableDeconstructPercentage : Mod
@@ -21,9 +21,12 @@ namespace Configurable_Deconstruct_Percentage
 			GetSettings<Settings>();
 			LongEventHandler.QueueLongEvent(delegate
 			{
+#if v1_0 || v1_1
 				Settings.UpdateDeconstructionFraction();
-#if !v1_0 && !v1_1
+#else
+				GenLeaving_DoLeavingsFor_Terrain.Patch(harmony);
 				GenLeaving_GetBuildingResourcesLeaveCalculator.Patch(harmony);
+				PlayerItemAccessibilityUtility_CacheAccessibleThings.Patch(harmony);
 				UnfinishedThing_Destroy.Patch(harmony);
 #endif
 			}, "ConfigurableDeconstructPercentage", false, null);

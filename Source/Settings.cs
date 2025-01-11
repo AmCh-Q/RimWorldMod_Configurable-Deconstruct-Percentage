@@ -36,8 +36,9 @@ namespace Configurable_Deconstruct_Percentage
 			foreach (ThingDef allDef in DefDatabase<ThingDef>.AllDefs)
 				allDef.resourcesFractionWhenDeconstructed = DeconstructPercent * 0.01f;
 #else
-			foreach (BuildableDef allDef in DefDatabase<BuildableDef>.AllDefs)
-				allDef.resourcesFractionWhenDeconstructed = DeconstructPercent * 0.01f;
+			// No need for updating def values
+			//foreach (BuildableDef allDef in DefDatabase<BuildableDef>.AllDefs)
+			//	allDef.resourcesFractionWhenDeconstructed = DeconstructPercent * 0.01f;
 #endif
 			Log.Message(string.Concat(
 				"[Configurable Deconstruct Percentage]: ",
