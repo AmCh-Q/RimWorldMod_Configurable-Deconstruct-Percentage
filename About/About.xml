@@ -13,9 +13,9 @@
     <li>1.4</li>
     <li>1.5</li>
   </supportedVersions>
-  <description>In the vanilla game, deconstruction/failed construction/destruction return 50%/50%/25% of the used building materials respectively, this mod makes it configurable (100%/80%/50% by default).
+  <description>In the vanilla 1.5 game, deconstructing/failing to construct/cancelling/destroying a building return 50%/50%/100%/25% of the used building materials, and cancelling an in-progress worktable item returns 75% of the materials, this mod makes it configurable (100%/80%/100%/50%/90% by default).
 
-There are many mod out there that does similar things, but to my knowledge, very few (if any) can configure all three.
+There are many mod out there that does similar things, but to my knowledge, very few (if any) can configure all of these.
 
 You can also config to keep the last X of each resource (default X = 1), so you get to keep your Nano Structuring Chip when you deconstruct your Wastepack Atomizer.
 
@@ -23,7 +23,7 @@ No reload required upon setting change as it takes effect immediately.
 
 There should be negligible impact on performance.
 
-Not all buildings are affected equally, some buildings have their own special destruction effect and some explicitly blacklist materials from ever being returned; this mod respects those cases.
+Not all buildings are affected equally, some buildings have their own special destruction effect and some (such as walls) explicitly blacklist materials from ever being returned; this mod respects those cases.
 
 This is my take on Neceros' [99 Percent] Mod ( https://github.com/Neceros/99percent , https://steamcommunity.com/sharedfiles/filedetails/?id=1267149586 ) since they are no longer maintaing their mods.
 I took their idea but not their codes as this is a C# rewrite that adds configurability.
