@@ -6,7 +6,7 @@ using Verse;
 using HarmonyLib;
 #endif
 
-[assembly: AssemblyVersion("2.1.1.0")]
+[assembly: AssemblyVersion("2.2.0.0")]
 namespace Configurable_Deconstruct_Percentage
 {
 	public class ConfigurableDeconstructPercentage : Mod
