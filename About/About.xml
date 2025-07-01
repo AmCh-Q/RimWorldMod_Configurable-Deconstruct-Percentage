@@ -14,7 +14,7 @@
     <li>1.5</li>
     <li>1.6</li>
   </supportedVersions>
-  <description>In the vanilla 1.5 game, deconstructing/failing to construct/cancelling/destroying a building return 50%/50%/100%/25% of the used building materials, and cancelling an in-progress worktable item returns 75% of the materials, this mod makes them configurable (100%/80%/100%/50%/90% by default).
+  <description>In the vanilla game after 1.5, deconstructing/failing to construct/cancelling/destroying a building return 50%/50%/100%/25% of the used building materials, and cancelling an in-progress worktable item returns 75% of the materials, this mod makes them configurable (100%/80%/100%/50%/90% by default).
 
 There are many mods out there that do similar things, but to my knowledge, none else can configure all of these.
 
@@ -67,6 +67,14 @@ This is my second C# mod, let me know if you notice any incompatibilities.</desc
         <steamWorkshopUrl>steam://url/CommunityFilePage/2009463077</steamWorkshopUrl>
       </li>
     </v1.5>
+    <v1.6>
+      <li>
+        <packageId>brrainz.harmony</packageId>
+        <displayName>Harmony</displayName>
+        <downloadUrl>https://github.com/pardeike/HarmonyRimWorld/releases/</downloadUrl>
+        <steamWorkshopUrl>steam://url/CommunityFilePage/2009463077</steamWorkshopUrl>
+      </li>
+    </v1.6>
   </modDependenciesByVersion>
   <loadAfter>
     <li>brrainz.harmony</li>
